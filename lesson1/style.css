@@ -1,0 +1,64 @@
+    * {margin: 0; padding: 0;}
+    * {font-family:"Roboto","Arial", sans-serif;}
+
+    .btn-cart{
+        position: absolute;
+        top: 25px;
+        right: 20px;
+        width: 120px;
+        height: 60px;
+        font-size: 30px;
+        border-radius: 20px;
+        background-color: aqua;
+        color: black;
+    }
+
+    header{
+        background-color: whitesmoke;
+        height: 120px;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    body {
+        background: blue url(img/cats.jpg);
+        background-size: 100%;
+        color: #fff; /* Цвет текста */
+    }
+
+    .products{
+        height: 650px;
+        margin-top: 150px;
+        margin-left: 50px;
+        margin-right: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .product-item{
+        height: 650px;
+        width: 400px;
+        background-color: whitesmoke;
+        opacity: 0.9;
+        border-radius: 25px;
+        border: 2px solid aqua;
+        font-size: 25px;
+        text-align: center;
+        color: aqua;
+    }
+
+    img{
+        width: 350px;
+        height: 450px;
+        margin-top: 30px;
+    }
+
+    .buy_btn{
+        margin-top: 20px;
+        border-radius: 20px;
+        background-color: aqua;
+        color: black;
+        width: 120px;
+        height: 50px;
+        font-size: 25px;
+    }
