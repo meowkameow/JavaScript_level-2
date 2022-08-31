@@ -1,0 +1,122 @@
+#w {
+    display: block;
+    width: 660px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 35px 15px;
+    background: #fff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-box-shadow: 2px 3px 4px -2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 2px 3px 4px -2px rgba(0,0,0,0.55);
+    box-shadow: 2px 3px 4px -2px rgba(0,0,0,0.55);
+}
+
+
+
+/* form styles */
+form .row {
+    display: block;
+    padding: 7px 8px;
+    margin-bottom: 7px;
+}
+
+
+form label {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 120px;
+    padding: 6px 0;
+    color: #464646;
+    vertical-align: top;
+}
+
+
+form .note {
+    font-size: 1.2em;
+    line-height: 1.33em;
+    font-weight: normal;
+    padding: 2px 7px;
+    margin-bottom: 10px;
+}
+
+
+form .txt {
+    display: inline-block;
+    padding: 8px 9px;
+    padding-right: 30px;
+    width: 240px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.35em;
+    font-weight: normal;
+    color: #898989;
+    background-color: #f0f0f0;
+    background-position: 110% center;
+    background-repeat: no-repeat;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(25, 25, 25, 0.25) inset, -1px 1px #fff;
+    -moz-box-shadow: 0 1px 2px rgba(25, 25, 25, 0.25) inset, -1px 1px #fff;
+    box-shadow: 0 1px 2px rgba(25, 25, 25, 0.25) inset, -1px 1px #fff;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+form .txtarea {
+    display: inline-block;
+    padding: 8px 11px;
+    padding-right: 30px;
+    width: 320px;
+    height: 120px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.35em;
+    font-weight: normal;
+    color: #898989;
+    background-color: #f0f0f0;
+    background-position: 110% 4%;
+    background-repeat: no-repeat;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 4px -1px #a8a8a8 inset;
+    -moz-box-shadow: 0 1px 4px -1px #a8a8a8 inset;
+    box-shadow: 0 1px 4px -1px #a8a8a8 inset;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+
+
+
+
+
+form .center {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.red{
+    border: 3px solid red;
+}
+
+.visualy-hidden{
+    display: none;
+    color: red;
+}
+
+#warning{
+    color: red;
+}
